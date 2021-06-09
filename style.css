@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300;1,500&display=swap');
+body{
+    background-color: rgb(0, 0, 0.5);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 60%;
+    margin: 30px auto;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+div h1{
+    font-size: 50px;
+    color: #CCFCF1;
+    text-align: center;
+    padding: 15px 0;  
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.buttons a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: #000;
+    border: 2px solid #CCFCF1;
+    width: 200px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background: linear-gradient(to left, #000 50%, #ccfcf14f 50%) right;
+    background-size: 200%;
+    transition: 0.5s ease-out;
+}
+.buttons a:hover{
+    background-position: left;
+}
